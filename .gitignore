@@ -1,5 +1,6 @@
-MW.txt
-brainwaves.npy
-codes.npy
+/mindwave/MW.txt
+/mindwave/brainwaves.npy
+/mindwave/codes.npy
+/mindwave/runs
 
-/runs
+/muse/MU.txt
