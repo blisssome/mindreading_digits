@@ -8,7 +8,11 @@ I always wanted to store my thoughts so I can go through them, maybe to discover
 
 ## Dataset
 
-The dataset I am using in this project is called [MINDBIGDATA](https://www.mindbigdata.com/). There are plenty of dataset which were organized by David Vivancos and Felix Cuesta. From the dataset catalog I have decided to use "MNIST of Brain Digits 2015". Here we can find the readings from 4 BCI devices and the format is given as a .txt file. So far I've exprimented with Muse and MindWave BCIs that have 4 and 1 channels respectively. I initially wasn’t sure how useful single-channel readings from the MindWave would be. While the results weren’t exceptional, they were surprisingly promising.
+The dataset I am using in this project is called [MINDBIGDATA](https://www.mindbigdata.com/). There are plenty of dataset which were organized by David Vivancos and Felix Cuesta. From the dataset catalog I have decided to use "MNIST of Brain Digits 2015". Here we can find the readings from 4 BCI devices and the format is given as a .txt file. So far I've exprimented with Muse and MindWave BCIs that have 4 and 1 channels respectively. I initially wasn’t sure how useful single-channel readings from the MindWave would be. While the results weren’t exceptional, they were surprisingly promising. To my surprise the results from MindWave and from Muse were not so far apart. I've tried out many preprocessing techniques and architectures to achieve better results, however it does not seem to change the results that much. 
+
+## Preprocessing
+
+In order to preprocess the data I wanted to follow the standard procedures that are usually done when working with EEG data which are band-pass filter and notch filter as well as converting the values to microvolts.  
 
 
 # References
