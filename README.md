@@ -8,7 +8,7 @@ I always wanted to store my thoughts so I can go through them, maybe to discover
 
 ## Dataset
 
-The dataset I am using in this project is called [MINDBIGDATA](https://www.mindbigdata.com/). There are plenty of dataset which were organized by David Vivancos and Felix Cuesta. From the dataset catalog I have decided to use "MNIST of Brain Digits 2015". Here we can find the readings from 4 BCI devices and the format is given as a .txt file.   
+The dataset I am using in this project is called [MINDBIGDATA](https://www.mindbigdata.com/). There are plenty of dataset which were organized by David Vivancos and Felix Cuesta. From the dataset catalog I have decided to use "MNIST of Brain Digits 2015". Here we can find the readings from 4 BCI devices and the format is given as a .txt file. So far I've exprimented with Muse and MindWave BCIs that have 4 and 1 channels respectively. I initially wasn’t sure how useful single-channel readings from the MindWave would be. While the results weren’t exceptional, they were surprisingly promising.
 
 
 # References
